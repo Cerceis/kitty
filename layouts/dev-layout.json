@@ -1,0 +1,74 @@
+{
+  "windows": [
+    {
+      "type": "tab",
+      "windows": [
+        {
+          "type": "window",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "window",
+              "layout": "horizontal",
+              "children": [
+                {
+                  "type": "window",
+                  "command": "bash",
+                  "title": "Top Left"
+                },
+                {
+                  "type": "window",
+                  "command": "bash",
+                  "title": "Top Right"
+                }
+              ]
+            },
+            {
+              "type": "window",
+              "layout": "horizontal",
+              "children": [
+                {
+                  "type": "window",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "window",
+                      "command": "bash",
+                      "title": "Bottom Left Top"
+                    },
+                    {
+                      "type": "window",
+                      "command": "bash",
+                      "title": "Bottom Left Bottom"
+                    }
+                  ]
+                },
+                {
+                  "type": "window",
+                  "command": "bash",
+                  "title": "Bottom Middle"
+                },
+                {
+                  "type": "window",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "window",
+                      "command": "bash",
+                      "title": "Bottom Right Top"
+                    },
+                    {
+                      "type": "window",
+                      "command": "bash",
+                      "title": "Bottom Right Bottom"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
